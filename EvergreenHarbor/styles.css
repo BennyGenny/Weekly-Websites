@@ -12,12 +12,26 @@ section{
     height: 100%;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 div{
-    padding: 20px;
-    margin: 20px;
+    position: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.left, .right {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    width: 33.33%;
+}
+
+
+
+img{
+    max-width: 100%;
 }
 
 nav{
